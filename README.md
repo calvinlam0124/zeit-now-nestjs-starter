@@ -24,7 +24,7 @@ vim now.json
 now
 ```
 
-### Install Now
+### Install Now-Cli
 go to https://zeit.co/download
 ```sh
 # or 
