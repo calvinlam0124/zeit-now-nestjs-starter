@@ -2,12 +2,12 @@
 A Demo for [nextjs-starter](https://github.com/nestjs/typescript-starter) deploy to [zeit/now](https://github.com/zeit/now) in a minute.
 
 ### Deploy
-1. update git sub-model
+1. update git sub-module
 ```sh
 git submodule update --init --recursive
 ```
 
-2. initial and build sub-model
+2. initial and build sub-module
 ```sh
 cd typescript-starter
 npm install
