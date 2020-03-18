@@ -17,9 +17,8 @@ npm install && npm test && npm build
 now
 ```
 
-
-### Deploy with your ready made application
-just create a now.json and run now
+### Deploy your ready made application
+just create and modify the [now.json](now.json) and run now
 ```sh
 vim now.json
 now
