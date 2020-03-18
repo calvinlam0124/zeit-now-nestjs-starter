@@ -14,6 +14,7 @@ cd typescript-starter
 npm install && npm test && npm build
 
 # deploy
+cd ..
 now
 ```
 
