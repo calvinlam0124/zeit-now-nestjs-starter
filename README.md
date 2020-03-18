@@ -23,3 +23,11 @@ just create and modify the [now.json](now.json) and run now
 vim now.json
 now
 ```
+
+### Install Now
+go to https://zeit.co/download
+```sh
+# or 
+npm i -g now
+```
+
