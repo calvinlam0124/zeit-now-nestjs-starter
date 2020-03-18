@@ -1,0 +1,3 @@
+[submodule "typescript-starter"]
+	path = typescript-starter
+	url = https://github.com/nestjs/typescript-starter
