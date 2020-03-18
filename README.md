@@ -1,41 +1,19 @@
 # zeit-now-nestjs-starter
 A Demo for [nextjs-starter](https://github.com/nestjs/typescript-starter) deploy to [zeit/now](https://github.com/zeit/now) in a minute.
 
-### Deploy
-1. update git sub-module
+### Deployment
 ```sh
+# clone the project
+git clone https://github.com/calvinlam0124/zeit-now-nestjs-starter
+
+# update git sub-module
 git submodule update --init --recursive
-```
 
-2. initial and build sub-module
-```sh
+# initial and build your applicatoin - nestjs
 cd typescript-starter
-npm install
-npm run test
-npm run build
-```
+npm install && npm test && npm build
 
-3. setup zeit-now, create `now.json`
-```json
-{
-  "version": 2,
-  "builds": [
-    {
-      "src": "typescript-starter/dist/main.js",
-      "use": "@now/node"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "typescript-starter/dist/main.js"
-    }
-  ]
-}
-```
-
-4. deploy to zeit-now
-```sh
+# deploy
 now
 ```
 
